@@ -2,6 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="Borsa Falı, yatırım fon ve günlük borsa verilerini tek merkezden canlı takip edebileceğiniz eğlenceli bir mobil uygulamadır.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="robots" content="index, follow">
 
@@ -136,26 +137,7 @@
       text-align: center;
       margin: 50px 0;
     }
-
-    .cta a {
-      background: linear-gradient(145deg, #d6b300, #f9f295);
-      color: #1a102a;
-      text-decoration: none;
-      padding: 15px 35px;
-      font-size: 1.15em;
-      border-radius: 50px;
-      font-weight: bold;
-      box-shadow: 0 0 20px rgba(214, 179, 0, 0.3);
-      transition: background 0.3s, transform 0.3s;
-    }
-	.cta img:hover {
-  	  transform: scale(1.05);
-	}
-    .cta a:hover {
-      background: linear-gradient(145deg, #ffe761, #fff0aa);
-      transform: scale(1.05);
-    }
-
+    
     footer {
       text-align: center;
       padding: 35px 20px;
@@ -173,6 +155,31 @@
     footer a:hover {
       text-decoration: underline;
     }
+      .cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; /* Tüm öğeler arası boşluk */
+    margin-top: 40px;
+  }
+
+  .cta a img {
+    width: 200px;
+    max-width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .cta a img:hover {
+    transform: scale(1.05);
+  }
+
+  .cta h4 {
+    margin: 20px 0 5px;
+    font-size: 1.2em;
+  }
+    
   </style>
   
   <meta name="google-site-verification" content="VVKMux4y53m8n0byoIQC1gN0yrk_wiffp_CMMBxKUF8" />
@@ -208,8 +215,13 @@
   </section>
 
 <div class="cta">
+  <h4>🔮 Borsafalı Uygulaması İçin</h2>
   <a href="https://play.google.com/store/apps/details?id=com.kemalyetkin.borsafali" target="_blank">
     <img src="https://raw.githubusercontent.com/KemalYetkin/Webpages/main/images/android.png" alt="Uygulamayı İndir" style="width:200px; max-width:80%; border-radius:20px; box-shadow:0 0 20px rgba(255,255,255,0.2); transition: transform 0.3s ease;" />
+  </a>
+  <h4>🎮 Turnmaster Puzzle Oyunum</h2>
+  <a href="https://play.google.com/store/apps/details?id=com.kemalyetkin.turnmaster" target="_blank">
+  	<img src="https://raw.githubusercontent.com/KemalYetkin/Webpages/main/images/android.png" alt="Uygulamayı İndir" />
   </a>
 </div>
 
